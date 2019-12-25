@@ -29,8 +29,15 @@ namespace InsertionSort
                 Console.Write(item + " ");
             }
 
+            Console.WriteLine("\n");
+            WorkWithReflection refl = new WorkWithReflection();
+
+            refl.ShowAllMethods(arraySorting);
+            refl.ShowAllFields(arraySorting);
             Console.ReadKey();
 
         }
+
+        
     }
 }

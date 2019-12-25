@@ -7,9 +7,12 @@ using NLog;
 
 namespace InsertionSort
 {
-    class ArraySorting
+    public class ArraySorting
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
+
+        public string TestField;
+        private int TstField;
 
         public void FillArray(int[] array)
         {
@@ -50,6 +53,11 @@ namespace InsertionSort
             }
         }
 
+
+        private void Test()
+        {
+
+        }
      
     }
 }
